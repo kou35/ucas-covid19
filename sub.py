@@ -29,11 +29,11 @@ passwd = r"PASSWORD"  # sep 密码
 api_key = ""  # 可选， server 酱的通知 api key
 
 # 可选，如果需要邮件通知，那么修改下面五行 :)
-smtp_port = "SMTP_PORT"
-smtp_server = "SMTP_SERVER"
-sender_email = ""
+smtp_port = 25
+smtp_server = "smtp.sina.com"
+sender_email = "zongeek@sina.com"
 sender_email_passwd = r""
-receiver_email = ""
+receiver_email = "de.ep@qq.com"
 
 # 可选，如果需要Telegram通知，修改下面
 tg_chat_id = ""  # 和bot的chat_id
